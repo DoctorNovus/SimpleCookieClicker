@@ -2,9 +2,6 @@
 
 This is a simple cookie clicker game created by Daniel Wedding. Some features include Clicking cookies, local database storage, and auto clickers. 
 
-## Documentation
-https://danieldwedding.github.io/SimpleCookieClicker/
-
 ## Scripts
 
 ```
