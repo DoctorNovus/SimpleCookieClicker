@@ -25,3 +25,9 @@ h3 {
     margin: 10px;
     bottom: 0px;
 }
+
+button {
+    position: relative;
+    top: 25em;
+    margin: 10px;
+}

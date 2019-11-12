@@ -99,6 +99,7 @@ game.run = function() {
         }
     } else {
         localStorage.setItem("cookies", 0);
+        count = 0;
     }
 
     if (localStorage.getItem("autoclickers")) {
@@ -110,6 +111,7 @@ game.run = function() {
         };
     } else {
         localStorage.setItem("autoclickers", 0);
+        autoclickers = 0;
     }
 
     let clickers = document.getElementById("clickers");
