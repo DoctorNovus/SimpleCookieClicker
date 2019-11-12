@@ -1,0 +1,16 @@
+{
+    "name": "cookie-clicker",
+    "version": "1.0.0",
+    "description": "A simple cookie clicker",
+    "main": "serv.js",
+    "dependencies": {
+        "@outwalk/iris": "^0.1.0",
+        "@outwalk/sable": "^1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "sable compile && sable serve --port 80"
+    },
+    "author": "Daniel Wedding",
+    "license": "ISC"
+}
