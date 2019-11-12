@@ -114,6 +114,11 @@ game.run = function() {
         autoclickers = 0;
     }
 
+    if (autoclickers == NaN || count == NaN) {
+        localStorage.clear();
+        window.location.reload();
+    }
+
     let clickers = document.getElementById("clickers");
     clickers.innerText = `Auto Clickers: ${autoclickers}`;
 
